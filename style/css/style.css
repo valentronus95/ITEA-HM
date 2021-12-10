@@ -1,0 +1,9 @@
+@import "mixins.scss";
+:root {
+  --size: 1000px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
