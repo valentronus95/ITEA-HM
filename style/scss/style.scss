@@ -6,14 +6,51 @@
     padding: 0;
     max-width: 1288px;
 }
+body {
+    font-family: 'Raleway', sans-serif;
+}
 /* .wrapper {
    test 
 } */
+.nav-item {
+    display: flex;
+}
+
+
+.form-check-row {
+    display: flex;
+}
+
+
+
+.align-top{
+    display: flex;
+}
 
 
 .container-2 {
     display: flex;
 }
+.container-2-bg {
+    width: 384px;
+    background: #F0F2F5;
+}
+.container-2-bg-2 {
+    width: 874px;
+    background: #F0F2F5;
+}
 .container-3 {
     display: flex;
+}
+
+.btn-primary {
+    width: 206px;
+    height: 54px;
+    background: #946FD3;
+border-radius: 50px;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 19px;
+color: #FFFFFF
 }

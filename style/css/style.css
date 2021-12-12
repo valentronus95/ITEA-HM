@@ -7,17 +7,61 @@
   max-width: 1288px;
 }
 
+body {
+  font-family: "Raleway", sans-serif;
+}
+
 /* .wrapper {
    test 
 } */
+.nav-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.form-check-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.align-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .container-2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
+.container-2-bg {
+  width: 384px;
+  background: #F0F2F5;
+}
+
+.container-2-bg-2 {
+  width: 874px;
+  background: #F0F2F5;
+}
+
 .container-3 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.btn-primary {
+  width: 206px;
+  height: 54px;
+  background: #946FD3;
+  border-radius: 50px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
 }
