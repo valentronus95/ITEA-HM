@@ -1,3 +1,10 @@
-@mixin name {
-    
+@mixin nav {
+    display: flex;
+    list-style-type: none;
+    li {
+        padding-left: 50px;
+        a {
+            text-decoration: none;
+        }
+    }    
 }
