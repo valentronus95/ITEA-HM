@@ -2,16 +2,16 @@
     --size: 1000px;
 } */
 * {
+/*     max-width: 1288px;
+ */    
+}
+.wrapper {
     margin: 0 auto;
-    padding: 0;
     max-width: 1288px;
 }
 body {
     font-family: 'Raleway', sans-serif;
 }
-/* .wrapper {
-   test 
-} */
 .nav-item {
     display: flex;
 }
