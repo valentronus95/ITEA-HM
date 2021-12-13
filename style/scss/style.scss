@@ -1,56 +1,112 @@
-/* :root {
-    --size: 1000px;
-} */
-* {
-/*     max-width: 1288px;
- */    
-}
-.wrapper {
-    margin: 0 auto;
-    max-width: 1288px;
-}
-body {
-    font-family: 'Raleway', sans-serif;
-}
-.nav-item {
-    display: flex;
+* a {
+    cursor: pointer;
 }
 
+.wrapper {
+  margin: 0 auto;
+  max-width: 1288px;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+header {
+  background-color: #f8f4fc;
+  height: 117px;
+}
+
+.navbar-brand {
+    padding: 0;
+    margin-right: 90px;
+}
+.bg-light {
+  width: 1288px;
+  margin: 0 auto;
+}
+
+.nav-item {
+  display: flex;
+  justify-content: space-between;
+  width: 432px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #354657;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 0;
+}
+
+.img-nav {
+  margin-left: 37.63px;
+}
+.inside-bar {
+    margin-top: 16px;    
+    display: flex;
+    align-items: center;
+    padding: 0;
+    list-style-type: none;
+    max-width: 389px;
+    height: 16px;
+    li {
+        margin-right: 10px;
+    }
+    li h4 {
+        padding: 0;
+        margin: 0;
+        font-size: 14px;
+        line-height: 16px;
+        text-decoration-line: underline;
+        color: #626262;
+    }
+}
+
+
+.container-fluid {
+  padding: 0;
+}
 
 .form-check-row {
-    display: flex;
+  display: flex;
 }
 
-
-
-.align-top{
-    display: flex;
+.align-top {
+  display: flex;
 }
-
 
 .container-2 {
-    display: flex;
+  display: flex;
 }
+
 .container-2-bg {
-    width: 384px;
-    background: #F0F2F5;
+  width: 384px;
+  background: #f0f2f5;
 }
+
 .container-2-bg-2 {
-    width: 874px;
-    background: #F0F2F5;
+  width: 874px;
+  background: #f0f2f5;
 }
+
 .container-3 {
-    display: flex;
+  display: flex;
 }
 
 .btn-primary {
-    width: 206px;
-    height: 54px;
-    background: #946FD3;
-border-radius: 50px;
-font-style: normal;
-font-weight: bold;
-font-size: 16px;
-line-height: 19px;
-color: #FFFFFF
+  width: 206px;
+  height: 54px;
+  background: #946fd3;
+  border-radius: 50px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
 }

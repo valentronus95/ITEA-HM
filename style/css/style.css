@@ -1,9 +1,5 @@
-/* :root {
-    --size: 1000px;
-} */
-* {
-  /*     max-width: 1288px;
-   */
+* a {
+  cursor: pointer;
 }
 
 .wrapper {
@@ -15,10 +11,76 @@ body {
   font-family: "Raleway", sans-serif;
 }
 
+header {
+  background-color: #f8f4fc;
+  height: 117px;
+}
+
+.navbar-brand {
+  padding: 0;
+  margin-right: 90px;
+}
+
+.bg-light {
+  width: 1288px;
+  margin: 0 auto;
+}
+
 .nav-item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 432px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #354657;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding: 0;
+}
+
+.img-nav {
+  margin-left: 37.63px;
+}
+
+.inside-bar {
+  margin-top: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0;
+  list-style-type: none;
+  max-width: 389px;
+  height: 16px;
+}
+.inside-bar li {
+  margin-right: 10px;
+}
+.inside-bar li h4 {
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  line-height: 16px;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #626262;
+}
+
+.container-fluid {
+  padding: 0;
 }
 
 .form-check-row {
@@ -41,12 +103,12 @@ body {
 
 .container-2-bg {
   width: 384px;
-  background: #F0F2F5;
+  background: #f0f2f5;
 }
 
 .container-2-bg-2 {
   width: 874px;
-  background: #F0F2F5;
+  background: #f0f2f5;
 }
 
 .container-3 {
@@ -58,11 +120,11 @@ body {
 .btn-primary {
   width: 206px;
   height: 54px;
-  background: #946FD3;
+  background: #946fd3;
   border-radius: 50px;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
   line-height: 19px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
