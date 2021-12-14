@@ -1,5 +1,7 @@
+// out: ../css/styles.css
+
 * a {
-  cursor: pointer;
+    cursor: pointer;
 }
 
 .wrapper {
@@ -17,22 +19,17 @@ header {
 }
 
 .navbar-brand {
-  padding: 0;
-  margin-right: 90px;
+    padding: 0;
+    margin-right: 90px;
 }
-
 .bg-light {
   width: 1288px;
   margin: 0 auto;
 }
 
 .nav-item {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   width: 432px;
 }
 
@@ -46,58 +43,47 @@ header {
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
-  padding: 0;
+    padding: 0;
 }
 
 .img-nav {
   margin-left: 37.63px;
 }
-
 .inside-bar {
-  margin-top: 16px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding: 0;
-  list-style-type: none;
-  max-width: 389px;
-  height: 16px;
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    list-style-type: none;
+    max-width: 389px;
+    height: 16px;
+    li {
+        margin-right: 10px;
+    }
+    li h4 {
+        padding: 0;
+        margin: 0;
+        font-size: 14px;
+        line-height: 16px;
+        text-decoration-line: underline;
+        color: #626262;
+    }
 }
-.inside-bar li {
-  margin-right: 10px;
-}
-.inside-bar li h4 {
-  padding: 0;
-  margin: 0;
-  font-size: 14px;
-  line-height: 16px;
-  -webkit-text-decoration-line: underline;
-          text-decoration-line: underline;
-  color: #626262;
-}
+
 
 .container-fluid {
   padding: 0;
 }
 
 .form-check-row {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
 .align-top {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
 .container-2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
@@ -112,8 +98,6 @@ header {
 }
 
 .container-3 {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
