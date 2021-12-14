@@ -1,3 +1,5 @@
+// out: false
+
 @mixin nav {
     display: flex;
     list-style-type: none;
@@ -6,5 +8,5 @@
         a {
             text-decoration: none;
         }
-    }    
+    }
 }
