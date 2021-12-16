@@ -21,7 +21,7 @@ header {
   margin-right: 90px;
 }
 
-.bg-light {
+.navbar {
   width: 1288px;
   margin: 0 auto;
 }
@@ -76,30 +76,173 @@ header {
   padding: 0;
 }
 
+form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+form .left-col, form .right-col {
+  display: flex;
+  flex-direction: column;
+}
+
+form .personal-data, form .payments {
+  margin-top: 30px;
+}
+
 .form-check-row {
   display: flex;
+}
+
+.form-check {
+  margin-right: 23px;
+  color: #354657;
 }
 
 .align-top {
   display: flex;
 }
 
-.container-2 {
-  display: flex;
+.title-h1 {
+  margin-top: 71px;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 35px;
+  color: #354657;
+}
+
+.line {
+  max-width: 1288px;
+  border: 1px solid #E2E2E2;
+  margin-bottom: 40px;
 }
 
 .container-2-bg {
-  width: 384px;
+  max-width: 384px;
   background: #f0f2f5;
+  padding: 20px;
+}
+
+.title-h3 {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  color: #354657;
+  margin-bottom: 21px;
 }
 
 .container-2-bg-2 {
+  padding: 20px;
   width: 874px;
   background: #f0f2f5;
 }
 
-.container-3 {
+.form-label {
+  font-size: 14px;
+  line-height: 16px;
+  color: #354657;
+}
+
+.md-444 {
+  max-width: 384px;
+  background: #F0F2F5;
+  padding: 20px;
+}
+
+.md-444 .mb-3 input {
+  width: 344px;
+  height: 38px;
+  background: #FFFFFF;
+  border: 1px solid #B6B6B6;
+  box-sizing: border-box;
+  border-radius: 3px;
+  font-size: 14px;
+  color: #ADA8A8;
+}
+
+.container-4 {
+  max-width: 874px;
+}
+
+.container-4 .title-h1 {
+  margin: 0;
+  font-weight: bold;
+  font-size: 20px;
+  color: #354657;
+}
+
+.prepaid {
+  background: #F0F2F5;
+  padding: 20px;
+}
+
+.comment {
+  height: 318px;
+  padding: 20px;
+  background: #F0F2F5;
+}
+
+.comment h4 {
+  font-size: 14px;
+  line-height: 16px;
+  color: #354657;
+}
+
+.comment .form-check-input[type=checkbox] {
+  border: 1px solid #946FD3;
+  box-sizing: border-box;
+  border-radius: 2px;
+  background: #F0F2F5;
+}
+
+.form-control {
+  max-width: 834px;
+  height: 86px;
+  resize: none;
+  font-size: 14px;
+  line-height: 16px;
   display: flex;
+  align-items: center;
+  color: #ADA8A8;
+  border: 1px solid #B6B6B6;
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+
+.form-check-input:checked {
+  background: #946FD3;
+  border: 2px solid #946FD3;
+}
+
+input[type='radio']:after {
+  width: 13px;
+  height: 13px;
+  border-radius: 15px;
+  position: relative;
+  background-color: #FFFFFF;
+  content: '';
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid white;
+}
+
+input[type='radio']:checked:after {
+  width: 13px;
+  height: 13px;
+  border-radius: 15px;
+  top: -1px;
+  left: -1px;
+  position: relative;
+  background-color: #946FD3;
+  content: '';
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid white;
+}
+
+.social a {
+  margin-left: 17px;
 }
 
 .btn-primary {
@@ -112,4 +255,21 @@ header {
   font-size: 16px;
   line-height: 19px;
   color: #ffffff;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+table thead {
+  background-color: #F0F2F5;
+}
+
+table .price {
+  font-weight: bold;
+}
+
+table td {
+  border: none;
 }
